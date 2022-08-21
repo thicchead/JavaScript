@@ -1,0 +1,15 @@
+/*---EVENTHANDLING WC3---*/
+
+addEventListener = voeg een functie toe aan een element of heel de functie
+removeEL = verwijder een eventlistener
+
+EVENT PROPAGATION
+
+Meerdere eventlisteners in de DOM tree
+    bv. listener naar click events op de <p> en op een <button>
+
+propagation: laagste element wordt eerst behandeld
+
+bij script --> als mousedown event === 0 (left click)
+    dan wordt de handler voor alleen de button gebruikt, niet button en paragraph (wel bij e = 1, 2)
+
