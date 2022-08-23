@@ -59,17 +59,17 @@ window.addEventListener("keyup", event => {
     }
 }); */
 
-let help = document.querySelector("#help");
-let fields = document.querySelectorAll("input");
-
-for (let field of fields) {
-    let textNodeData;
-    field.addEventListener("focus", event => {
-        let text = event.target.getAttribute("data-help");
-        textNodeData = document.createTextNode(text);
-        help.appendChild(textNodeData);
-    });
-    field.addEventListener("blur", event => {
-        help.replaceChild(document.createTextNode(""), textNodeData);
-    });
-}
+// let help = document.querySelector("#help");
+// let fields = document.querySelectorAll("input");
+//
+// for (let field of fields) {
+//     let textNodeData;
+//     field.addEventListener("focus", event => {
+//         let text = event.target.getAttribute("data-help");
+//         textNodeData = document.createTextNode(text);
+//         help.appendChild(textNodeData);
+//     });
+//     field.addEventListener("blur", event => {
+//         help.replaceChild(document.createTextNode(""), textNodeData);
+//     });
+// }

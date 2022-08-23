@@ -1,0 +1,9 @@
+Load event
+= onderaan je code window.ael gebruiken
+"load", en dan de eerste functie
+die functie zet de eventlistener waar je wilt, daar is de listener de tweede functie
+die functie doet dan het echte werk
+
+doc.sqa("thing").value
+qs voor css
+getby html
